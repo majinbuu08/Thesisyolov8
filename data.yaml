@@ -1,0 +1,13 @@
+train: C:\Users\jdich\thesisnew\train\images
+val: C:\Users\jdich\thesisnew\valid\images
+test: C:\Users\jdich\thesisnew\test\images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: shreks-swamp
+  project: coco-dataset-limited--person-only
+  version: 1
+  license: None
+  url: https://universe.roboflow.com/shreks-swamp/coco-dataset-limited--person-only/dataset/1
